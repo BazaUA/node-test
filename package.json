@@ -1,0 +1,38 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BazaUA/node-test.git"
+  },
+  "author": "Bazalytskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BazaUA/node-test/issues"
+  },
+  "homepage": "https://github.com/BazaUA/node-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.17.1"
+  }
+}
