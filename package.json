@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/BazaUA/node-test#readme",
   "dependencies": {
+    "async": "^2.6.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mysql": "^2.16.0",
-    "nodemon": "^1.18.3"
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.3",
+    "sequelize": "^4.38.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
