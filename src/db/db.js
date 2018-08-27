@@ -2,7 +2,10 @@
 import Sequelize from 'sequelize';
 
 export default () => {
-  const sequelize = new Sequelize('mysql://root:root@localhost:3306/db_test');
+  const nameOfDb = 'db_test';
+  const user = 'root';
+  const password = 'root';
+  const sequelize = new Sequelize(`mysql://${user}:${password}@localhost:3306/${nameOfDb}`);
   sequelize
     .authenticate()
     .then(() => (console.log('Connection has been established successfully.')))
