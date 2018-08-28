@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-import Sequelize from 'sequelize';
+const Sequelize = require('sequelize');
 
-export default () => {
+module.exports = () => {
   const nameOfDb = 'db_test';
   const user = 'root';
   const password = 'root';

@@ -1,5 +1,5 @@
-import { Router } from 'express';
-import postController from '../controllers/PostController';
+const { Router } = require('express');
+const postController = require('../controllers/PostController');
 
 const postRouter = Router();
 
@@ -18,4 +18,4 @@ const router = () => {
   return postRouter;
 };
 
-export default router;
+module.exports = router;

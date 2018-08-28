@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js --exec babel-node",
+    "start": "nodemon index.js --exec node",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint index.js src",
-    "seed": "babel-node seed"
+    "seed": "node seed"
   },
   "repository": {
     "type": "git",

@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
-import postModel from '../model/PostModel';
-import connect from '../db/db';
+const postModel = require('../model/PostModel');
+const connect = require('../db/db');
 
 
-export default () => {
+module.exports = () => {
   let model;
   const connection = connect();
   postModel(connection)

@@ -1,4 +1,4 @@
-import Sequelize from 'sequelize';
+const Sequelize = require('sequelize');
 
 const PostModel = async (sequelize) => {
   const Post = sequelize.define('posts', {
@@ -13,4 +13,4 @@ const PostModel = async (sequelize) => {
   return Post;
 };
 
-export default PostModel;
+module.exports = PostModel;

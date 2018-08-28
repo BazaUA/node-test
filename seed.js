@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import connect from './src/db/db';
-import postModel from './src/model/PostModel';
+const connect = require('./src/db/db');
+const postModel = require('./src/model/PostModel');
 
 const posts = [
   {

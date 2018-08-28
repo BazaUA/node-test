@@ -1,8 +1,7 @@
 /* eslint-disable no-console */
-import express from 'express';
-import bodyParser from 'body-parser';
-
-import postRouter from './src/routes/PostRoutes';
+const express = require('express');
+const bodyParser = require('body-parser');
+const postRouter = require('./src/routes/PostRoutes');
 
 const app = express();
 
