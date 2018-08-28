@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const postRouter = require('./src/routes/PostRoutes');
 
+
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
